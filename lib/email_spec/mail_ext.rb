@@ -1,3 +1,5 @@
+require 'mail'
+
 module EmailSpec::MailExt
   def default_part
     @default_part ||= html_part || text_part || self

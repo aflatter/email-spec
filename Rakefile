@@ -23,6 +23,7 @@ begin
     s.extra_rdoc_files = %w(README.rdoc MIT-LICENSE.txt)
     s.rubyforge_project = 'email-spec'
     s.add_runtime_dependency "rspec", "~> 2.0"
+    s.add_runtime_dependency "mail", ">= 2.2.5"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
